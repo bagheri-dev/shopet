@@ -5,7 +5,16 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors : {
+        "primary" : "#F7763D",
+        "second" : "#519BC2",
+      },
+      fontFamily : {
+        "IRANSans" : "IRANSans",
+        "Peyda" : "Peyda",
+      }
+    },
   },
   plugins: [],
 }
