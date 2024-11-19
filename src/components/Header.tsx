@@ -49,7 +49,7 @@ const Header = () => {
                 <div className={"flex items-center justify-between py-2 mt-8"}>
                     <div>
                         <nav>
-                            <ul className={"flex items-center gap-x-3"}>
+                            <ul className={"flex items-center gap-x-7 font-bold"}>
                                 <li className={"text-primary"}>خانه</li>
                                 <li>فروشگاه</li>
                                 <li>وبلاگ</li>
@@ -60,7 +60,7 @@ const Header = () => {
                     </div>
                     <div className={"flex items-center gap-x-3"}>
                         <FiPhoneCall className={"size-6"}/>
-                        <p>شماره تماس: <span className={"text-primary"}>۰۹۱۷۱۲۳۴۵۶۷</span></p>
+                        <p className={"font-bold"}>شماره تماس: <span className={"text-primary"}>۰۹۱۷۱۲۳۴۵۶۷</span></p>
                     </div>
                 </div>
             </div>
