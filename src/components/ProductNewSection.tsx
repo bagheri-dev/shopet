@@ -4,7 +4,7 @@ import ProductItem from "./UI/ProductItem.tsx";
 const ProductNewSection = () => {
     return(
         <div className={"container mx-auto"}>
-            <div className={"flex items-center justify-between font-bold"}>
+            <div className={"flex items-center justify-between font-bold pb-10"}>
                 <h3 className={"text-3xl"}>جدیدترین محصولات</h3>
                 <p className={"text-primary text-2xl"}>مشاهده همه</p>
             </div>

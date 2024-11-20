@@ -9,7 +9,7 @@ const Header = () => {
                 <div className={"flex items-center justify-between py-4"}>
                 {/*Logo*/}
                     <div className={"flex items-center gap-x-3"}>
-                        <img src={"/public/images/logo.png"} alt={"Logo"}/>
+                        <img src={"/images/logo.png"} alt={"Logo"}/>
                         <p className={"text-primary"}>شاپت</p>
                     </div>
                 {/*Search box*/}
@@ -17,11 +17,10 @@ const Header = () => {
                         <input className={"w-full px-2 py-2 outline-none bg-inherit"} placeholder={"محصول مورد نظر رو جستجو کنید ..."} type="search" name="search" id="search" />
                         <CiSearch className={"size-8 text-white bg-[#5124C4] rounded-full"}/>
                     </div>
-                {/*shop*/}
                     <div className={"flex items-center gap-x-10"}>
                         <div className={"flex items-center gap-x-1"}>
                             <div>
-                                <img src={"/public/images/icons/Tick-Square.svg"} />
+                                <img src={"/images/icons/Tick-Square.svg"} alt={"Tick-Square"}/>
                             </div>
                             <div>
                                 <p>ضمانت اصالت کالا</p>
@@ -30,7 +29,7 @@ const Header = () => {
                         </div>
                         <div className={"flex items-center gap-x-1"}>
                             <div>
-                                <img src={"/public/images/icons/iconamoon_delivery-free-thin.svg"}/>
+                                <img src={"/images/icons/iconamoon_delivery-free-thin.svg"}/>
                             </div>
                             <div>
                                 <p>ارسال رایگان</p>

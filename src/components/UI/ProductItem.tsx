@@ -3,7 +3,7 @@ import {CiSquarePlus} from "react-icons/ci";
 
 const ProductItem:React.FC<IProductItemType> = ({id, name , image , price}) => {
     return(
-        <div key={id} className={"py-2 px-6 space-y-3 flex flex-col justify-between shadow-xl"}>
+        <div key={id} className={"py-2 px-6 space-y-3 flex flex-col justify-between shadow-xl border border-dashed rounded-lg"}>
             <div className={"flex justify-center"}>
                 <img className={"w-[204px] h-[204px]"} src={image} alt={name} />
             </div>
