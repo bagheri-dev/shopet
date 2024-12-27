@@ -11,7 +11,7 @@ const HeroSection = () => {
                     <button className={"flex items-center gap-x-3 bg-[#5124C4] py-1 px-2 rounded-full text-white text-xl"}>خرید کنید<IoIosArrowBack className={"bg-white rounded-full text-[#5124C4] size-6"} /></button>
                 </div>
                 <div>
-                    <img src={"/images/hero-dog.png"} alt={"image dog"}/>
+                    <img src={"/shopet/images/hero-dog.png"} alt={"image dog"}/>
                 </div>
             </div>
         </div>
