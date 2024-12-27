@@ -9,8 +9,8 @@ const ProductDog = () => {
                     <img className={"w-full h-full"} src={"/images/baner.png"} alt={"baner"} />
                 </div>
                 <div className={"grid grid-cols-3 gap-y-2 gap-x-2"}>
-                    {productsDog.map((item) => {
-                        return <ProductItemDog id={item.name} name={item.name} image={item.image} price={item.price}/>
+                    {productsDog.map((item , index) => {
+                        return <ProductItemDog id={index} name={item.name} image={item.image} price={item.price}/>
                     })}
                 </div>
             </div>
