@@ -14,7 +14,7 @@ export const products = [
     {
         id : 3,
         name : "غذای سگ Science diet (۳ کیلوگرم)",
-        image : "/images/products/product-2.png",
+        image : "/shopet/images/products/product-2.png",
         price : 437000
     },
     {
