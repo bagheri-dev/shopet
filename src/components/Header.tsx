@@ -9,7 +9,7 @@ const Header = () => {
                 <div className={"flex items-center justify-between py-4"}>
                 {/*Logo*/}
                     <div className={"flex items-center gap-x-3"}>
-                        <img src={"/shopet/images/logo.png"} alt={"Logo"}/>
+                        <img src={"images/logo.png"} alt={"Logo"}/>
                         <p className={"text-primary"}>شاپت</p>
                     </div>
                 {/*Search box*/}
@@ -20,7 +20,7 @@ const Header = () => {
                     <div className={"flex items-center gap-x-10"}>
                         <div className={"flex items-center gap-x-1"}>
                             <div>
-                                <img src={"/shopet/images/icons/Tick-Square.svg"} alt={"Tick-Square"}/>
+                                <img src={"images/icons/Tick-Square.svg"} alt={"Tick-Square"}/>
                             </div>
                             <div>
                                 <p>ضمانت اصالت کالا</p>
@@ -29,7 +29,7 @@ const Header = () => {
                         </div>
                         <div className={"flex items-center gap-x-1"}>
                             <div>
-                                <img src={"/shopet/images/icons/iconamoon_delivery-free-thin.svg"}/>
+                                <img src={"images/icons/iconamoon_delivery-free-thin.svg"}/>
                             </div>
                             <div>
                                 <p>ارسال رایگان</p>

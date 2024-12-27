@@ -6,7 +6,7 @@ const AnimalFood = () => {
             <div className={"flex items-center gap-x-12"}>
                 <div className={"w-full flex items-center justify-between"}>
                     <div className={"flex items-center gap-x-4"}>
-                        <img src={"/shopet/images/fish.png"} alt={"fish"}/>
+                        <img src={"images/fish.png"} alt={"fish"}/>
                         <p className={"font-bold text-xl"}>غذا ماهی</p>
                     </div>
                     <div>
@@ -15,7 +15,7 @@ const AnimalFood = () => {
                 </div>
                 <div className={"w-full flex items-center justify-between"}>
                     <div className={"flex items-center gap-x-4"}>
-                        <img src={"/shopet/images/cat.png"} alt={"cat"}/>
+                        <img src={"images/cat.png"} alt={"cat"}/>
                         <p className={"font-bold text-xl"}>غذا و لوازم گربه</p>
                     </div>
                     <div>
@@ -24,7 +24,7 @@ const AnimalFood = () => {
                 </div>
                 <div className={"w-full flex items-center justify-between"}>
                     <div className={"flex items-center gap-x-4"}>
-                        <img src={"/shopet/images/dogs.png"} alt={"dog"}/>
+                        <img src={"images/dogs.png"} alt={"dog"}/>
                         <p className={"font-bold text-xl"}>غذا و لوازم سگ</p>
                     </div>
                     <div>

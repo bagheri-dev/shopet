@@ -29,7 +29,7 @@ const Footer = () => {
                     </div>
                     <div className={"w-[364px] h-[220px] flex flex-col justify-center space-y-4"}>
                         <div className={"flex items-center gap-x-3"}>
-                            <img src={"/shopet/images/logo.png"} alt={"Logo"}/>
+                            <img src={"images/logo.png"} alt={"Logo"}/>
                             <p className={"text-primary font-bold"}>شاپت</p>
                         </div>
                         <p className={"text-[#666666]"}>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با

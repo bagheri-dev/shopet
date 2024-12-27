@@ -8,7 +8,7 @@ const Blogs : React.FC = () => {
             <div className={"flex justify-between items-center my-14"}>
                 <div className={"space-y-4"}>
                     <div>
-                        <img src={"/shopet/images/blogs/blog-1.png"}
+                        <img src={"images/blogs/blog-1.png"}
                              alt={"نکات کلیدی درباره نگهداری سگ در آپارتمان های ایرانی"}/>
                     </div>
                     <div className={"flex items-center gap-x-5"}>
@@ -31,7 +31,7 @@ const Blogs : React.FC = () => {
                 </div>
                 <div className={"space-y-4"}>
                     <div>
-                        <img src={"/shopet/images/blogs/blog-2.png"}
+                        <img src={"images/blogs/blog-2.png"}
                              alt={"13 تا از بهترین نژادهای سگ برای افراد مبتدی را بشناسید!"}/>
                     </div>
                     <div className={"flex items-center gap-x-5"}>
@@ -53,7 +53,7 @@ const Blogs : React.FC = () => {
                 </div>
                 <div className={"space-y-4"}>
                     <div>
-                        <img src={"/shopet/images/blogs/blog-3.png"}
+                        <img src={"images/blogs/blog-3.png"}
                              alt={"3 روش ساده برای آموزش فرمان نخور به سگ، که همه باید بدانند."}/>
                     </div>
                     <div className={"flex items-center gap-x-5"}>

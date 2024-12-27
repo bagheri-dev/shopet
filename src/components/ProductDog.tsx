@@ -6,7 +6,7 @@ const ProductDog = () => {
         <div className={"container mx-auto mt-14"}>
             <div className={"flex items-center gap-x-5"}>
                 <div className={"h-full"}>
-                    <img className={"w-full h-full"} src={"/shopet/images/baner.png"} alt={"baner"} />
+                    <img className={"w-full h-full"} src={"images/baner.png"} alt={"baner"} />
                 </div>
                 <div className={"grid grid-cols-3 gap-y-2 gap-x-2"}>
                     {productsDog.map((item , index) => {

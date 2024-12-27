@@ -11,7 +11,7 @@ const Category = () => {
                         <button className={"flex items-center gap-x-2 bg-[#E77291] py-1 px-2 rounded-full"}>خرید
                             کنید<IoIosArrowBack className={"bg-white rounded-full text-[#FF9AB3] size-6"} /></button>
                     </div>
-                    <div className={"flex justify-start z-20"}><img src={"/shopet/images/category/category4.png"}
+                    <div className={"flex justify-start z-20"}><img src={"images/category/category4.png"}
                         alt={"فروش انواع غذای خشک"} /></div>
                 </div>
                 <div
@@ -21,7 +21,7 @@ const Category = () => {
                         <button className={"flex items-center gap-x-2 bg-[#88BD88] py-1 px-2 rounded-full"}>خرید
                             کنید<IoIosArrowBack className={"bg-white rounded-full text-[#FF9AB3] size-6"} /></button>
                     </div>
-                    <div className={"flex justify-start z-20"}><img src={"/shopet/images/category/category3.png"}
+                    <div className={"flex justify-start z-20"}><img src={"images/category/category3.png"}
                         alt={"فروش انواع غذای خشک"} /></div>
                 </div>
                 <div
@@ -31,7 +31,7 @@ const Category = () => {
                         <button className={"flex items-center gap-x-2 bg-[#CC6513] py-1 px-2 rounded-full"}>خرید
                             کنید<IoIosArrowBack className={"bg-white rounded-full text-[#FF9AB3] size-6"} /></button>
                     </div>
-                    <div className={"flex justify-start z-20"}><img src={"/shopet/images/category/category2.png"}
+                    <div className={"flex justify-start z-20"}><img src={"images/category/category2.png"}
                         alt={"فروش انواع غذای خشک"} /></div>
                 </div>
                 <div
@@ -41,7 +41,7 @@ const Category = () => {
                         <button className={"flex items-center gap-x-2 bg-[#D086E3] py-1 px-2 rounded-full"}>خرید
                             کنید<IoIosArrowBack className={"bg-white rounded-full text-[#FF9AB3] size-6"} /></button>
                     </div>
-                    <div className={"flex justify-start z-20"}><img src={"/shopet/images/category/category1.png"}
+                    <div className={"flex justify-start z-20"}><img src={"images/category/category1.png"}
                         alt={"فروش انواع غذای خشک"} /></div>
                 </div>
             </div>
