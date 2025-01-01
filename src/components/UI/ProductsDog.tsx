@@ -10,7 +10,7 @@ const ProductItemDog:React.FC<IProductItemType> = ({id, name , image , price}) =
             <h3 className={"text-[#666666] text-lg font-bold"}>{name}</h3>
             <div className={"flex items-center justify-between font-semibold text-[#79AF79]"}>
                 <span>قیمت :</span>
-                <span>{price}</span>
+                <span className="text-lg">{Number(price).toLocaleString()}</span>
             </div>
             <div className={"flex justify-center"}>
                 <button className={"flex items-center gap-x-2 bg-[#519BC2] text-white py-1 px-2 text-lg rounded-lg"}><CiSquarePlus/>افزودن

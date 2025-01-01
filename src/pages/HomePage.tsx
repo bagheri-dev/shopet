@@ -11,7 +11,7 @@ import Footer from "../components/Footer.tsx";
 
 const HomePage = () => {
     return (
-        <div>
+        <div className="font-IRANSans">
             <Baner />
             <Header />
             <HeroSection />
